@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\UserManagement\\UserInformation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|e:\\projects\\usermanagement\\userinformation\\userinformationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|solutionrelative:userinformationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|e:\\projects\\usermanagement\\userinformation\\userinformationapi\\models\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|solutionrelative:userinformationapi\\models\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|e:\\projects\\usermanagement\\userinformation\\userinformationapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|solutionrelative:userinformationapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|e:\\projects\\usermanagement\\userinformation\\userinformationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|solutionrelative:userinformationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|e:\\projects\\usermanagement\\userinformation\\userinformationapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3148C444-9448-4C0E-B394-EB58F2ABE533}|UserInformationApi\\UserInformationApi.csproj|solutionrelative:userinformationapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Program.cs",
+              "RelativeDocumentMoniker": "UserInformationApi\\Program.cs",
+              "ToolTip": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Program.cs",
+              "RelativeToolTip": "UserInformationApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T13:36:58.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\appsettings.json",
+              "RelativeDocumentMoniker": "UserInformationApi\\appsettings.json",
+              "ToolTip": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\appsettings.json",
+              "RelativeToolTip": "UserInformationApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-09T13:35:55.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "UserInformationApi\\Controllers\\EmployeesController.cs",
+              "ToolTip": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "UserInformationApi\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T13:35:21.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "UserInformationApi\\Models\\Employee.cs",
+              "ToolTip": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Models\\Employee.cs",
+              "RelativeToolTip": "UserInformationApi\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T13:32:03.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Models\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "UserInformationApi\\Models\\EmployeeDbContext.cs",
+              "ToolTip": "E:\\Projects\\UserManagement\\UserInformation\\UserInformationApi\\Models\\EmployeeDbContext.cs",
+              "RelativeToolTip": "UserInformationApi\\Models\\EmployeeDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T13:30:01.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

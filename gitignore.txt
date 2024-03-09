@@ -1,0 +1,21 @@
+# Visual Studio Code directories
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+/bin/
+/obj/
+
+# .NET Core
+.NET/
+
+# Visual Studio IntelliSense cache
+*.vscode/.cache
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
