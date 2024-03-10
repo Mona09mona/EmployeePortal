@@ -75,7 +75,7 @@ namespace UserInformationApi.Controllers
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginRequest model)
-        {
+        { 
             // Find the EmployeeLogin record for the provided username
             var employeeLogin = await _context.EmployeeLogins
                 .FirstOrDefaultAsync(e => e.Username == model.Username);
