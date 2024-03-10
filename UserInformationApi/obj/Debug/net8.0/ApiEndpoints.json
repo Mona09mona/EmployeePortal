@@ -1,108 +1,31 @@
 [
   {
-    "ContainingType": "UserInformationApi.Controllers.EmployeesController",
-    "Method": "GetEmployees",
-    "RelativePath": "api/Employees",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[UserInformationApi.Models.Employee, UserInformationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "UserInformationApi.Controllers.EmployeesController",
-    "Method": "PostEmployee",
-    "RelativePath": "api/Employees",
+    "ContainingType": "UserInformationApi.Controllers.LoginRegisterController",
+    "Method": "Login",
+    "RelativePath": "api/LoginRegister/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "UserInformationApi.Models.Employee",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "UserInformationApi.Models.Employee",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "UserInformationApi.Controllers.EmployeesController",
-    "Method": "GetEmployee",
-    "RelativePath": "api/Employees/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "UserInformationApi.Models.Employee",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "UserInformationApi.Controllers.EmployeesController",
-    "Method": "PutEmployee",
-    "RelativePath": "api/Employees/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "employee",
-        "Type": "UserInformationApi.Models.Employee",
+        "Name": "model",
+        "Type": "UserInformationApi.Modeldto.LoginRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "UserInformationApi.Controllers.EmployeesController",
-    "Method": "DeleteEmployee",
-    "RelativePath": "api/Employees/{id}",
-    "HttpMethod": "DELETE",
+    "ContainingType": "UserInformationApi.Controllers.LoginRegisterController",
+    "Method": "Register",
+    "RelativePath": "api/LoginRegister/register",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "model",
+        "Type": "UserInformationApi.Modeldto.RegisterRequest",
         "IsRequired": true
       }
     ],

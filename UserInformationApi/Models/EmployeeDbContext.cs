@@ -14,8 +14,10 @@ public partial class EmployeeDbContext : DbContext
         : base(options)
     {
     }
-
     public virtual DbSet<Employee> Employees { get; set; }
+
+   
+    public virtual DbSet<EmployeeLogin> EmployeeLogins { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -68,8 +70,29 @@ public partial class EmployeeDbContext : DbContext
                 .IsUnicode(false);
         });
 
+        modelBuilder.Entity<EmployeeLogin>(entity =>
+        {
+            entity.HasKey(e => e.EmployeeId).HasName("PK__Employee__7AD04FF15F9B15A3");
+
+            entity.ToTable("EmployeeLogin");
+
+            entity.HasIndex(e => e.Username, "UQ__Employee__536C85E4E900D605").IsUnique();
+
+            entity.Property(e => e.EmployeeId)
+                .ValueGeneratedNever()
+                .HasColumnName("EmployeeID");
+            entity.Property(e => e.PasswordHash)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Username)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+        });
+
         OnModelCreatingPartial(modelBuilder);
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+
 }
